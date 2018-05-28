@@ -18,6 +18,7 @@ InputText.addEventListener('keypress', function (event) {
         li.append(span);
         li.append(event.target.value);
         TodoList.append(li)
+        event.target.value="";
     }
 });
 
